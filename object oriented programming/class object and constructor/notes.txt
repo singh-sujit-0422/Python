@@ -1,4 +1,4 @@
-* A class is a group of attributes and methods.Add commentMore actions
+* A class is a group of attributes and methods.
 * Attributes are variables that contain the data.
 * Method performs an action or a task.
 * object class is the base class of all Python classes.
@@ -11,6 +11,4 @@ self is the first argument of any object method (instance method). Python does t
 * An object is a class type variable. Python allocates memory only when we create object of the class. The size of allocated memory is decided on the basis of attributes and methods available in the class. Once the memory is allocated, Python calls the __init__() method internally to store the initial value of object's variables. The allocated memory address is passed to self.
 
 * Each time we create an object of the class, a copy of each variables defined in the class is created.
-
-
 * A constructor is called only once for each object.
