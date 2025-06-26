@@ -12,3 +12,13 @@ self is the first argument of any object method (instance method). Python does t
 
 * Each time we create an object of the class, a copy of each variables defined in the class is created.
 * A constructor is called only once for each object.
+
+
+* Calling class method through constructor: We can call a class method from the constructor using ClassName.classmethod() or self.__class__.classmethod().
+* We can access a class variable from the constructor using ClassName.classvar or self.__class__.classvar.
+* self.__class__ is preferred if inheritance is possible.
+
+
+* Use ** operator to calculate powers (e.g., x ** 2 for square, x ** 0.5 for square root).
+* Use math.sqrt(x) to calculate square root (import math module first).
+* math.sqrt(x) is more readable for square root compared to x ** 0.5
